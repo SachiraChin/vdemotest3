@@ -23,7 +23,8 @@
   },
 
   "commands": {
-    "web": "Microsoft.AspNet.Server.Kestrel --ASPNET_ENV development"
+    "web": "Microsoft.AspNet.Server.Kestrel",
+    "debug": "Microsoft.AspNet.Server.Kestrel --ASPNET_ENV development"
   },
 
   "frameworks": {
